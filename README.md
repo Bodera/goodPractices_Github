@@ -23,7 +23,7 @@ $> git --version
  Sem prática não há sucesso. Acesse [o template](https://github.com/Bodera/goodPractices_Github/blob/master/contributing-the-right-way/essence-of-good-readmes.md) no repositório de boas práticas no GitHub, lá são disponibilizadas as orientações e links de referência de como contribuir assertivamente. 
 
 ## Contribuições
- Atualmente somente o @Bodera atualiza o conteúdo deste repositório. Pull requests neste repositório são bem-vindas, mas peço antes que seja aberta uma issue para discutirmos sobre o que você gostaria de mudar.
+ Atualmente somente o [@Bodera](https://github.com/Bodera) atualiza o conteúdo deste repositório. Pull requests neste repositório são bem-vindas, mas peço antes que seja aberta uma issue para discutirmos sobre o que você gostaria de mudar.
 
 ## Licença
 Os softwares contidos neste repositório ainda não estão submetidos sob licença alguma.
