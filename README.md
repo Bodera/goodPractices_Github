@@ -1,5 +1,5 @@
 # goodPractices_Github
- Este repositório é uma coleção que contém instruções de linhas de comando Git e orientações de boas práticas na comunidade do GitHub.
+Este repositório é uma coleção que contém instruções de linhas de comando Git e orientações de boas práticas na comunidade do GitHub. 
 
 ## Motivo
  O propósito deste repositório é me auxiliar na formação de tecnólogo em Análise e Desenvolvimento de Sistemas, sabendo trabalhar com versionamento de código. Os comandos são organizados em diretórios respectivos ao assunto principal. Conforme evolua, o repositório será organizado e traduzido.
