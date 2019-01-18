@@ -1,3 +1,5 @@
+In the git logs window appears on the console, just hit the 'q' key to quit.
+
 ##### Create a Git repository in the current directory.
 ```bash
 $> git init
@@ -17,28 +19,37 @@ $> git add .
 $> git commit -a [-m 'your commit message']
 ```
 
-##### Identificar histórico de alterações
+##### Identify the repository commit history.
 ```bash
 $> git log
 ```
 
+##### I don't do git log all the time, but when i do just remember (A DOG).
 ```bash
-$>
+$> git log --all --decorate --oneline --graph
 ```
 
+##### List your Git configurations.
 ```bash
-$>
+$> git config --list
 ```
 
+##### Oups, I missed to add this file to my commit... thanks Git for the `--amend`.
 ```bash
-$>
+$> git commit -m 'It's all here'
+$> git add index.html
+4> git commit -amend
 ```
 
-$ git remote add origin url
+##### Redoing a changed file for how it was in the previous commit.
+```bash
+$> git reset HEAD README.md
+```
 
-$ git config --global user.name "username" 
-
-$ git config --global user.email "mail" 
+##### How to discard the changes I've made.
+```bash
+$>git checkout -- bird_noises.avi
+```
 
 ##### Send to branch `-dev` all files in the stage are.
 ```bash
@@ -64,4 +75,3 @@ $> git push origin [name_of_your_new_branch]
 ```bash
 $> git branch
 ```
-
