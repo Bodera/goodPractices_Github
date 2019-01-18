@@ -1,17 +1,38 @@
- Iniciar um repositório em um diretório
-$ git init
- 
- Adicionar um arquivo à área de espera (stage area)
+##### Create a Git repository in the current directory.
 ```bash
-$ git add
-``` 
- Adicionar todas as mudanças à área de espera
- $ git add .
+$> git init
+```
  
- Commitar
+##### Add a file into the stage area.
+```bash
+$> git add
+``` 
+##### Add the whole changed files into the stage area.
+```bash
+$> git add .
+```
+ 
+##### Commitar é ...
+```bash
+$> git commit -a [-m 'your commit message']
+```
 
- Identificar histórico de alterações
-$ git log
+##### Identificar histórico de alterações
+```bash
+$> git log
+```
+
+```bash
+$>
+```
+
+```bash
+$>
+```
+
+```bash
+$>
+```
 
 $ git remote add origin url
 
@@ -19,19 +40,28 @@ $ git config --global user.name "username"
 
 $ git config --global user.email "mail" 
 
- Envie ao servidor master os arquivos da stage area 
-$ git push origin master
+##### Send to branch `-dev` all files in the stage are.
+```bash
+$> git push origin Bodera-git-dev 
+```
 
- Colete do servidor master todas as informações e clone neste diretório
-$ git pull origin master 
+##### Colete do servidor master todas as informações e clone neste diretório
+```bash
+$> git pull origin master
+```
 
+##### Create the branch on your local machine and switch in this branch
+```bash
+$> git checkout -b [name_of_your_new_branch]
+```
 
- Create the branch on your local machine and switch in this branch
-$ git checkout -b [name_of_your_new_branch]
+##### Push the branch on github
+```bash
+$> git push origin [name_of_your_new_branch]
+```
 
- Push the branch on github
-$ git push origin [name_of_your_new_branch]
-
- You can see all branches created by using
-$ git branch
+##### You can see all branches created by using
+```bash
+$> git branch
+```
 
