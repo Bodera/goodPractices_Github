@@ -38,7 +38,7 @@ $> git config --list
 ```bash
 $> git commit -m 'It's all here'
 $> git add index.html
-4> git commit -amend
+4> git commit --amend
 ```
 
 ##### Redoing a changed file for how it was in the previous commit.
