@@ -11,14 +11,10 @@ A branch `master` é atualizada semanalmente, a branch `Bodera-git-dev` é atual
 
  ___
 #### Onde fica `Bodera-git-dev`?
-<<<<<<< HEAD
-Acesse a branch `dev` clicando [aqui](https://github.com/Bodera/goodPractices_Github/tree/Bodera-git-dev).
-=======
 Acesse a branch `dev` clicando [aqui](https://github.com/Bodera/goodPractices_Github/tree/Bodera-git-dev).  
->>>>>>> Bodera-git-dev
 
- ___
-## Detalhes do ambiente
+___
+ ## Detalhes do ambiente
 A versão do Git em que os comandos foram testatos contidos neste repositório é a `2.11.0`. Pelo terminal você pode saber a versão instalada:
 ```
 git --version
