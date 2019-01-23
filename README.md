@@ -8,7 +8,7 @@ Este repositório é uma coleção que contém instruções de linhas de comando
 A branch `master` é atualizada semanalmente, a branch `Bodera-git-dev` é atualizada a cada 2-4 dias.
 
 #### Onde fica `Bodera-git-dev`?
-Acesse a branch `dev` clicando [aqui](https://github.com/Bodera/goodPractices_Github/blob/master/contributing-the-right-way/essence-of-good-readmes.md).
+Acesse a branch `dev` clicando [aqui](https://github.com/Bodera/goodPractices_Github/tree/Bodera-git-dev).
 
 ## Detalhes do ambiente
 * A versão do Git em que os comandos foram testatos contidos neste repositório é a `2.11.0`. Pelo terminal você pode saber a versão instalada:
