@@ -1,8 +1,8 @@
 # Markdown tips
 O intuito deste documento é relembrar a sintaxe básica necessária para escrever documentos em extensão Markdown suportada pelo GitHub.
 
-## Recursos contemplados
-* Títulos, quebras de linha e linhas horizontais.
+## Recursos contemplados (utilizando links relativos)
+* [Títulos, quebras de linha e linhas horizontais](#Títulos, quebras de linha e linhas horizontais).
 * Estilização do texto pleno.
 * Listas.
 * Mídias e hyperlinks.
@@ -30,13 +30,10 @@ São adicionadas com o propósito de seccionar a página separando diferentes as
 
 ### Estilização do texto pleno.
 Utilize __2__ caracteres ASCII de valor 95 \_\_underline_\_ ao início e fim do texto para __Bold__.  
-Utilize __2__ caracteres ASCII de valor 42 \*\*asterisk*\* ao início e fim do texto para **Bold**.
-
+Utilize __2__ caracteres ASCII de valor 42 \*\*asterisk \*\* ao início e fim do texto para **Bold**. 
 Utilize __1__ caractere ASCII de valor 95 \_underline\_ ao início e fim do texto para _Italic_.  
 Utilize __1__ caractere ASCII de valor 42  \*asterisk\* ao início e fim do texto para *Italic*
-
 Utilize __2__ caracteres ASCII de valor 126 \~\~tilde\~\~ ao início e fim do texto para ~~Strikethrough~~.  
-
 Utilize __2__ caracteres ASCII de valor 42 + __1__ caractere ASCII de valor 95 \*\*\_like this\_\*\* ao início e fim do texto para **_Impressive_**.
 
 ### Listas.
