@@ -66,12 +66,27 @@ $> git pull origin master
 $> git checkout -b [name_of_your_new_branch]
 ```
 
-##### Push the branch on github
+##### Push the branch on github. Assuming that `origin` is your target.
 ```bash
 $> git push origin [name_of_your_new_branch]
 ```
 
-##### You can see all branches created by using
+##### You can see all branches created by using. Assuming that `origin` is your target.
 ```bash
 $> git branch
+```
+
+##### In order to delete a __local__ branch. Assuming that `origin` is your target.
+```bash
+$> git branch -d [the_local_branch]
+```
+
+##### In order to delete a __remote__ branch. Assuming that `origin` is your target.
+```bash
+git push origin --delete [the_remote_branch]
+```
+
+##### Sometimes is important to synchronize your branch list. The `-p` stands for ``--prune`, means that before fetching, remove any remote-tracking references that no longer exist on the remote
+```bash
+git fetch -p
 ```
