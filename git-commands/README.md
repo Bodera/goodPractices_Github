@@ -86,7 +86,13 @@ $> git branch -d [the_local_branch]
 git push origin --delete [the_remote_branch]
 ```
 
-##### Sometimes is important to synchronize your branch list. The `-p` stands for ``--prune`, means that before fetching, remove any remote-tracking references that no longer exist on the remote
+##### Sometimes is important to synchronize your branch list. The `-p` stands for `--prune`, means that before fetching, remove any remote-tracking references that no longer exist on the remote
 ```bash
 git fetch -p
+```
+
+##### Unstage your previous commits
+The number after the U+007E symbol, i.e. `~`, represents how much commits did you want to unstage.
+```bash
+git reset HEAD~2
 ```
